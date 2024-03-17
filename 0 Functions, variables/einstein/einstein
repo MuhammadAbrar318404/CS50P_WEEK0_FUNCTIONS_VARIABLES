@@ -1,0 +1,9 @@
+# Defining the main function
+def main():
+#Taking mass as the integer input  
+    mass = int(input("Please Provide m= "))
+    c=300000000
+    E=mass*(c**2)
+    print(E)
+#Calling the main function
+main()
